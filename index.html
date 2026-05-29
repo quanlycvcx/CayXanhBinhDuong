@@ -284,7 +284,7 @@
                     document.getElementById('tableHeader').innerHTML = '<tr>' + headers.map(h => `<th>${h}</th>`).join('') + '</tr>';
 
                     const status = document.getElementById('dataStatus');
-                    status.innerText = `Đã kết nối: ${rawData.length} tuyến đường`;
+                    status.innerText = `Kết nối thành công: ${rawData.length} dữ liệu tuyến đường`;
                     status.className = 'status-badge status-success';
                     document.getElementById('resultMeta').style.display = 'flex';
 
